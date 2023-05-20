@@ -9,8 +9,9 @@ public class Rectangulo extends Figura{
         this.altura = altura;
     }
 
-    public void calcularAreaPerimetro(){
+    public void calcular(){
         area = base * altura;
         perimetro = 2*base + 2*altura;
     }
+
 }

@@ -1,7 +1,6 @@
 package modelo;
 
-public class Figura ()
-{
+public class Figura {
     protected double perimetro;
     protected double area; 
 

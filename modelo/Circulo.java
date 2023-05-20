@@ -6,10 +6,11 @@ public class Circulo extends Figura{
         this.radio = radio;
     }
 
-    public void calcularAreaPerimetro(){
-        area = Math.PI * Math.pow(radio, 2);
-        perimetro = 2 * Math.PI * radio;
+    public void calcular(){
+        double pi=3.1416;
+        area = pi* Math.pow(radio, 2);
+        perimetro = 2 * pi * radio;
+        ;
+        
     }
-
-
 }
